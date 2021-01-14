@@ -9,5 +9,10 @@
     "*.md": "markdown",
     "*.mdx": "tdx",
     "stdio.h": "c"
+  },
+  "cmake.configureOnOpen": true,
+  "azure-iot-edge.defaultPlatform": {
+    "platform": "amd64",
+    "alias": null
   }
 }

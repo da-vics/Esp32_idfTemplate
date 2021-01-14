@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/esp32/test2/build/bootloader/esp-idf/cmake_install.cmake")
+  include("C:/esp32/BarCodeScanner/build/bootloader/esp-idf/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/esp32/test2/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/esp32/BarCodeScanner/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

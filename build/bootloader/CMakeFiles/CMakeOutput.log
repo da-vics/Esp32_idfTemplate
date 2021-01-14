@@ -11,7 +11,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "C:/esp32/test2/build/bootloader/CMakeFiles/3.13.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/3.13.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: C:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++.exe 
@@ -24,7 +24,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "C:/esp32/test2/build/bootloader/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
 xtensa-esp32-elf-gcc.exe (crosstool-NG esp-2019r2) 8.2.0
@@ -33,20 +33,20 @@ This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Determining if the C compiler works passed with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_9efe2"
-[1/2] Building C object CMakeFiles/cmTC_9efe2.dir/testCCompiler.c.obj
-[2/2] Linking C executable cmTC_9efe2
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_13523"
+[1/2] Building C object CMakeFiles/cmTC_13523.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_13523
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_9310c"
-[1/2] Building C object CMakeFiles/cmTC_9310c.dir/CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_9310c
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_6fc70"
+[1/2] Building C object CMakeFiles/cmTC_6fc70.dir/CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_6fc70
 Using built-in specs.
 COLLECT_GCC=C:\.espressif\tools\xtensa-esp32-elf\esp-2019r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe
 COLLECT_LTO_WRAPPER=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe
@@ -56,19 +56,19 @@ Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2019r2) 
 COMPILER_PATH=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/;c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/;c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_9310c'
- c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\WINDOWS\TEMP\ccTHCtec.res -o cmTC_9310c -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_9310c.dir/CMakeCCompilerABI.c.obj
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_6fc70'
+ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\WINDOWS\TEMP\ccAvb5DD.res -o cmTC_6fc70 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_6fc70.dir/CMakeCCompilerABI.c.obj
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_9310c'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_6fc70'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_9310c"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_9310c.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [[2/2] Linking C executable cmTC_9310c]
+  ignore line: [Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_6fc70"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_6fc70.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [[2/2] Linking C executable cmTC_6fc70]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\.espressif\tools\xtensa-esp32-elf\esp-2019r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe]
@@ -82,19 +82,19 @@ Parsed C implicit link information from above output:
   ignore line: [LIBRARY_PATH=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/]
   ignore line: [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/]
   ignore line: [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_9310c']
-  link line: [ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\WINDOWS\TEMP\ccTHCtec.res -o cmTC_9310c -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_9310c.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_6fc70']
+  link line: [ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\WINDOWS\TEMP\ccAvb5DD.res -o cmTC_6fc70 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_6fc70.dir/CMakeCCompilerABI.c.obj]
     arg [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\WINDOWS\TEMP\ccTHCtec.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\WINDOWS\TEMP\ccAvb5DD.res] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9310c] ==> ignore
+    arg [cmTC_6fc70] ==> ignore
     arg [-Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
     arg [-Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_9310c.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_6fc70.dir/CMakeCCompilerABI.c.obj] ==> ignore
   collapse library dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> [C:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0]
   collapse library dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/lib/gcc]
   collapse library dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> [C:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
@@ -106,11 +106,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_07790"
-[1/2] Building C object CMakeFiles/cmTC_07790.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_07790
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_26a08"
+[1/2] Building C object CMakeFiles/cmTC_26a08.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_26a08
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
@@ -121,11 +121,11 @@ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../li
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_b0c14"
-[1/2] Building C object CMakeFiles/cmTC_b0c14.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_b0c14
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_4720d"
+[1/2] Building C object CMakeFiles/cmTC_4720d.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_4720d
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
@@ -136,11 +136,11 @@ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../li
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_0c79a"
-[1/2] Building C object CMakeFiles/cmTC_0c79a.dir/feature_tests.c.obj
-[2/2] Linking C executable cmTC_0c79a
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_ad7c0"
+[1/2] Building C object CMakeFiles/cmTC_ad7c0.dir/feature_tests.c.obj
+[2/2] Linking C executable cmTC_ad7c0
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
@@ -149,20 +149,20 @@ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../li
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_944d6"
-[1/2] Building CXX object CMakeFiles/cmTC_944d6.dir/testCXXCompiler.cxx.obj
-[2/2] Linking CXX executable cmTC_944d6
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_9c6bb"
+[1/2] Building CXX object CMakeFiles/cmTC_9c6bb.dir/testCXXCompiler.cxx.obj
+[2/2] Linking CXX executable cmTC_9c6bb
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_410a5"
-[1/2] Building CXX object CMakeFiles/cmTC_410a5.dir/CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_410a5
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_610dd"
+[1/2] Building CXX object CMakeFiles/cmTC_610dd.dir/CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_610dd
 Using built-in specs.
 COLLECT_GCC=C:\.espressif\tools\xtensa-esp32-elf\esp-2019r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe
 COLLECT_LTO_WRAPPER=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe
@@ -172,19 +172,19 @@ Thread model: posix
 gcc version 8.2.0 (crosstool-NG esp-2019r2) 
 COMPILER_PATH=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/;c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/;c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/
 LIBRARY_PATH=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/;c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/;c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_410a5'
- c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\WINDOWS\TEMP\cciI7ijW.res -o cmTC_410a5 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_410a5.dir/CMakeCXXCompilerABI.cpp.obj
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_610dd'
+ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\WINDOWS\TEMP\ccT42YEY.res -o cmTC_610dd -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_610dd.dir/CMakeCXXCompilerABI.cpp.obj
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
-COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_410a5'
+COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_610dd'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(xtensa-esp32-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_410a5"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_410a5.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [[2/2] Linking CXX executable cmTC_410a5]
+  ignore line: [Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_610dd"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_610dd.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [[2/2] Linking CXX executable cmTC_610dd]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=C:\.espressif\tools\xtensa-esp32-elf\esp-2019r2-8.2.0\xtensa-esp32-elf\bin\xtensa-esp32-elf-g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe]
@@ -198,19 +198,19 @@ Parsed CXX implicit link information from above output:
   ignore line: [LIBRARY_PATH=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/]
   ignore line: [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/]
   ignore line: [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_410a5']
-  link line: [ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\WINDOWS\TEMP\cciI7ijW.res -o cmTC_410a5 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_410a5.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-Wno-frame-address' '-nostdlib' '-v' '-o' 'cmTC_610dd']
+  link line: [ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe -plugin c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\WINDOWS\TEMP\ccT42YEY.res -o cmTC_610dd -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0 -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc -Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib CMakeFiles/cmTC_610dd.dir/CMakeCXXCompilerABI.cpp.obj]
     arg [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../libexec/gcc/xtensa-esp32-elf/8.2.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=C:\WINDOWS\TEMP\cciI7ijW.res] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\WINDOWS\TEMP\ccT42YEY.res] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_410a5] ==> ignore
+    arg [cmTC_610dd] ==> ignore
     arg [-Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0]
     arg [-Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc]
     arg [-Lc:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib]
-    arg [CMakeFiles/cmTC_410a5.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_610dd.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
   collapse library dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0] ==> [C:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/lib/gcc/xtensa-esp32-elf/8.2.0]
   collapse library dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc] ==> [C:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/lib/gcc]
   collapse library dir [c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/lib] ==> [C:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/xtensa-esp32-elf/lib]
@@ -222,11 +222,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_b7e82"
-[1/2] Building CXX object CMakeFiles/cmTC_b7e82.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_b7e82
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_1349a"
+[1/2] Building CXX object CMakeFiles/cmTC_1349a.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_1349a
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
@@ -290,11 +290,11 @@ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../li
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_251f6"
-[1/2] Building CXX object CMakeFiles/cmTC_251f6.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_251f6
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_dfa98"
+[1/2] Building CXX object CMakeFiles/cmTC_dfa98.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_dfa98
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
@@ -358,11 +358,11 @@ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../li
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_5b163"
-[1/2] Building CXX object CMakeFiles/cmTC_5b163.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_5b163
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_163d6"
+[1/2] Building CXX object CMakeFiles/cmTC_163d6.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_163d6
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
@@ -426,11 +426,11 @@ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../li
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_72ff2"
-[1/2] Building CXX object CMakeFiles/cmTC_72ff2.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_72ff2
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_48146"
+[1/2] Building CXX object CMakeFiles/cmTC_48146.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_48146
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
@@ -494,11 +494,11 @@ c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../li
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: C:/esp32/test2/build/bootloader/CMakeFiles/CMakeTmp
+Change Dir: C:/esp32/BarCodeScanner/build/bootloader/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_79910"
-[1/2] Building CXX object CMakeFiles/cmTC_79910.dir/feature_tests.cxx.obj
-[2/2] Linking CXX executable cmTC_79910
+Run Build Command:"C:/.espressif/tools/ninja/1.9.0/ninja.exe" "cmTC_8d694"
+[1/2] Building CXX object CMakeFiles/cmTC_8d694.dir/feature_tests.cxx.obj
+[2/2] Linking CXX executable cmTC_8d694
 c:/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/8.2.0/../../../../xtensa-esp32-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00400054
 
 
